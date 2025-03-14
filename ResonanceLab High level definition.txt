@@ -1,0 +1,46 @@
+a desktop application for your personal use that will:
+
+Support arbitrary tuning systems, potentially based on the Scala format
+Output .wav audio files
+Provide total control over the generation process using additive synthesis
+Allow customization of not just musical elements (scales, chords, melodies) but also the instruments themselves
+Be developed as a C# .NET WinForms application using NAudio and NWave libraries
+
+This sounds like a sophisticated music generation system that goes beyond conventional equal temperament constraints, giving you complete control over the harmonic structure of your compositions.
+Let's start breaking down the core requirements in more detail:
+
+Tuning System Module:
+
+Parser for Scala (.scl) files to import tuning definitions
+Capability to define custom tuning systems
+Frequency calculation engine for arbitrary scales
+ResonanceLab
+
+(AKA Intonality, intonation/tonality dualityonan)
+
+Sound Synthesis:
+
+Additive synthesis engine
+Custom instrument definition interface
+Harmonic control parameters
+
+
+Composition Engine:
+
+Chord progression generator using non-equal temperament
+Melody generator that follows the selected tuning system
+Harmony rules that can adapt to different tuning systems
+
+
+Audio Output:
+
+.wav file generation using NAudio/NWave
+Appropriate sampling rate and bit depth options
+
+
+User Interface:
+
+Controls for selecting/defining tuning systems
+Instrument design interface
+Composition parameter controls
+Audio preview functionality
